@@ -1,6 +1,6 @@
 @import '../../sass/conf/conf';
 
-$sidebar-scroll-width: 4px;
+$sidebar-scroll-width: 10px;
 $angle-left: "\f100";
 $angle-right: "\f101";
 
@@ -112,6 +112,7 @@ a.al-sidebar-list-link {
 }
 
 .slimScrollBar, .slimScrollRail {
+  background-color: #aaa;
   border-radius: 0px !important;
   width: $sidebar-scroll-width !important;
   left: $sidebar-width - $sidebar-scroll-width;
